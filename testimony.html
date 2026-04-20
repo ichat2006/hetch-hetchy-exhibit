@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Testimony | When a Valley Disappeared</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .tr-excerpt {
+    border: 1px solid rgba(184,134,26,0.3);
+    border-top: 4px solid var(--gold);
+    background: #f9f6ef;
+    margin: 2rem 0;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  }
+  .tr-excerpt .tr-head {
+    background: var(--ink); padding: 0.65rem 1.4rem;
+    font-family: 'DM Mono', monospace; font-size: 0.58rem;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold);
+  }
+  .tr-excerpt .tr-row {
+    display: grid; grid-template-columns: 110px 1fr;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+  }
+  .tr-excerpt .tr-row:last-child { border-bottom: none; }
+  .tr-excerpt .tr-sp {
+    padding: 1rem 0.8rem 1rem 1.4rem;
+    border-right: 1px solid rgba(0,0,0,0.06);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem; letter-spacing: 0.09em; text-transform: uppercase;
+  }
+  .sp-pinchot { color: var(--gold); }
+  .sp-raker   { color: var(--water); }
+  .sp-chair   { color: var(--mid); }
+  .tr-excerpt .tr-body {
+    padding: 1rem 1.4rem; font-size: 0.95rem; line-height: 1.78; color: #2a2018;
+  }
+  .tr-excerpt .tr-body .hl {
+    background: rgba(184,134,26,0.18);
+    border-bottom: 2px solid var(--gold); padding: 0 2px;
+  }
+  .tr-excerpt .tr-source {
+    padding: 0.5rem 1.4rem;
+    font-family: 'DM Mono', monospace; font-size: 0.55rem;
+    color: var(--mid); background: var(--parchment);
+    border-top: 1px solid var(--rule);
+  }
+  .callout {
+    border-left: 4px solid var(--water);
+    padding: 1.2rem 1.6rem;
+    background: rgba(46,88,115,0.06); margin: 1.5rem 0;
+  }
+  .callout .callout-label {
+    font-family: 'DM Mono', monospace; font-size: 0.58rem;
+    letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--water); margin-bottom: 0.45rem;
+  }
+  .callout p { font-size: 0.93rem; color: #2a3040; margin: 0; }
+  .rtag {
+    display: inline-block; font-family: 'DM Mono', monospace;
+    font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.22em 0.55em; border-radius: 2px; margin-bottom: 0.6rem;
+  }
+  .rtag-ethos  { background: rgba(184,134,26,0.14); color: var(--gold);   border: 1px solid rgba(184,134,26,0.4); }
+  .rtag-logos  { background: rgba(46,88,115,0.11);  color: var(--water);  border: 1px solid rgba(46,88,115,0.3); }
+  .rtag-pathos { background: rgba(139,58,26,0.11);  color: var(--rust);   border: 1px solid rgba(139,58,26,0.3); }
+  .rtag-kairos { background: rgba(45,74,45,0.11);   color: var(--forest); border: 1px solid rgba(45,74,45,0.3); }
+  .divider { border: none; border-top: 2px solid var(--rule); margin: 3rem 0; }
+  @media(max-width:700px){
+    .tr-excerpt .tr-row { grid-template-columns: 1fr; }
+    .tr-excerpt .tr-sp { border-right: none; border-bottom: 1px solid rgba(0,0,0,0.06); padding-bottom: 0.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-logo">
+      <span class="logo-eyebrow">Digital Exhibit</span>
+      <span class="logo-title">When a Valley Disappeared</span>
+    </a>
+    <nav class="main-nav">
+      <button class="nav-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="context.html">Historical Context</a></li>
+        <li><a href="figures.html">The Figures</a></li>
+        <li><a href="stakes.html">What Was at Stake</a></li>
+        <li><a href="testimony.html" class="active">The Testimony</a></li>
+        <li><a href="outcome.html">Outcome &amp; Legacy</a></li>
+        <li><a href="sources.html">Sources</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; The Testimony</p>
+    <h1>The Testimony</h1>
+    <p class="page-intro">Pinchot's testimony before Congress on December 1, 1913 didn't win by overwhelming the opposition with evidence. It won by changing the terms of the debate entirely — making only one conclusion seem reasonable before any argument had been made.</p>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container">
+
+    <div style="background:var(--ink); border-left:4px solid var(--gold); padding:1.2rem 1.6rem; margin-bottom:2.5rem;">
+      <p style="font-family:'DM Mono',monospace; font-size:0.6rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--gold); margin-bottom:0.4rem;">Primary Source</p>
+      <p style="color:#c8bfb4; font-size:0.9rem; margin:0;">All transcript excerpts are drawn verbatim from the official U.S. Government Printing Office record of the House Committee on Public Lands hearing, 63rd Congress, 1st Session, December 1, 1913. Digitized by <em>History Matters</em>, George Mason University: <span style="color:var(--gold-lt);">historymatters.gmu.edu/d/5721</span></p>
+    </div>
+
+    <!-- MOVE 1 -->
+    <span class="rtag rtag-kairos">Kairos &amp; Ethos</span>
+    <h2 style="margin-top:0.3rem;">Move 1: Shrinking the Room for Argument</h2>
+    <p>Pinchot's first move was to treat the decision as basically already made. Before offering a single substantive argument, he declared that the question had been debated for over a decade and that most objections had already been resolved. This reframed the hearing's purpose — not a debate, but a confirmation of what was already inevitable.</p>
+
+    <div class="tr-excerpt">
+      <div class="tr-head">Transcript — House Committee on Public Lands, Dec. 1, 1913</div>
+      <div class="tr-row">
+        <div class="tr-sp sp-chair">The Chairman</div>
+        <div class="tr-body">In deference to Mr. Pinchot's wishes, as he desires to leave the city, he will be permitted to address the committee at this time if there is no objection.</div>
+      </div>
+      <div class="tr-row">
+        <div class="tr-sp sp-pinchot">Pinchot</div>
+        <div class="tr-body">Mr. Chairman and gentlemen of the committee, my testimony will be very short. I presume that you very seldom have the opportunity of passing upon any measure before the Committee on the Public Lands which has been so thoroughly thrashed out as this one. <span class="hl">This question has been up now, I should say, more than 10 years</span>, and the reasons for and against the proposition have not only been discussed over and over again, but <span class="hl">a great deal of the objections which could be composed have been composed</span>...</div>
+      </div>
+      <div class="tr-source">Source: House Committee on the Public Lands, 63rd Cong., 1st Sess. (Dec. 1, 1913) — historymatters.gmu.edu/d/5721</div>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">What This Does Rhetorically</div>
+      <p>"More than 10 years" signals fatigue — questions already hashed out, any further debate just going in circles. Saying objections have been "composed" implies closure without showing how. The effect is to move the process from open deliberation to confirmation. It becomes easier to agree with something that feels inevitable than to take responsibility for deciding something uncertain. Pinchot's authority as America's first Chief Forester made the move land: his voice didn't sound like opinion — it sounded like professional conclusion.</p>
+    </div>
+
+    <hr class="divider">
+
+    <!-- MOVE 2 -->
+    <span class="rtag rtag-logos">Logos</span>
+    <h2 style="margin-top:0.3rem;">Move 2: Redefining Conservation to Exclude the Opposition</h2>
+    <p>Once he had narrowed the room for argument, Pinchot redefined the terms of the debate itself. His most consequential statement is not an argument — it is a definition that makes Muir's entire position invisible.</p>
+
+    <div class="tr-excerpt">
+      <div class="tr-head">Transcript — The Definition That Won the Argument</div>
+      <div class="tr-row">
+        <div class="tr-sp sp-pinchot">Pinchot</div>
+        <div class="tr-body"><span class="hl">Now, the fundamental principle of the whole conservation policy is that of use</span>, to take every part of the land and its resources and put it to that use in which it will best serve the most people, and I think there can be no question at all but that in this case we have an instance in which all weighty considerations demand the passage of the bill.</div>
+      </div>
+      <div class="tr-row">
+        <div class="tr-sp sp-pinchot">Pinchot</div>
+        <div class="tr-body">As we all know, <span class="hl">there is no use of water that is higher than the domestic use.</span></div>
+      </div>
+      <div class="tr-source">Source: House Committee on the Public Lands, 63rd Cong., 1st Sess. (Dec. 1, 1913) — historymatters.gmu.edu/d/5721</div>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">What This Does Rhetorically</div>
+      <p>Calling "use" the "fundamental principle" signals it is not open to challenge — it is the foundation everything else rests on. That single word reduces nature to function, to something measurable and justifiable. Muir's appeals to intrinsic or spiritual value don't register under this framework. They are not argued against — they are excluded. By shaping the debate's definitions, Pinchot doesn't need to argue that Muir's perspective is wrong. He just makes it irrelevant. The "highest use" hierarchy then builds on this: once domestic use is declared supreme, no comparison is needed. The ranking has been decided before anyone speaks.</p>
+    </div>
+
+    <hr class="divider">
+
+    <!-- MOVE 3 -->
+    <span class="rtag rtag-ethos">Ethos</span>
+    <h2 style="margin-top:0.3rem;">Move 3: The Strategic Concession</h2>
+    <p>Having set his framework, Pinchot turns to his most sophisticated move — appearing to give ground to the opposition while actually dismissing it entirely.</p>
+
+    <div class="tr-excerpt">
+      <div class="tr-head">Transcript — The Concession and the Dismissal</div>
+      <div class="tr-row">
+        <div class="tr-sp sp-pinchot">Pinchot</div>
+        <div class="tr-body"><span class="hl">I think that the men who assert that it is better to leave a piece of natural scenery in its natural condition have rather the better of the argument</span>, and I believe if we had nothing else to consider than the delight of the few men and women who would yearly go into the Hetch Hetchy Valley, then it should be left in its natural condition. <span class="hl">But the considerations on the other side of the question to my mind are simply overwhelming.</span></div>
+      </div>
+      <div class="tr-row">
+        <div class="tr-sp sp-raker">Mr. Raker</div>
+        <div class="tr-body">Have you seen Mr. John Muir's criticism of the bill? You know him?</div>
+      </div>
+      <div class="tr-row">
+        <div class="tr-sp sp-pinchot">Pinchot</div>
+        <div class="tr-body">Yes, sir; I know him very well. He is an old and a very good friend of mine... <span class="hl">In this case I think he has unduly given away to beauty as against use.</span></div>
+      </div>
+      <div class="tr-source">Source: House Committee on the Public Lands, 63rd Cong., 1st Sess. (Dec. 1, 1913) — historymatters.gmu.edu/d/5721</div>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">What This Does Rhetorically</div>
+      <p>Granting that preservationists "have rather the better of the argument" projects intellectual honesty — it signals fairness while controlling exactly what is being conceded. Then "overwhelming" brushes aside the preservation argument without attacking it. The word "unduly" carries the real payload: it suggests excess and imbalance. Muir is not wrong — he is unreasonable. There is also a tension worth noticing: Pinchot presents himself as rational and measured, but his references to urgency and large-scale public need are not purely logical. They create a sense of consequence, even fear. He criticizes emotional reasoning while quietly using it himself — framed as responsibility rather than sentiment, which makes it far more acceptable in a policy setting.</p>
+    </div>
+
+    <hr class="divider">
+
+    <!-- MOVE 4 -->
+    <span class="rtag rtag-pathos">Pathos</span>
+    <h2 style="margin-top:0.3rem;">Move 4: The Few vs. The Many</h2>
+    <p>Pinchot's final move reframes the entire debate as a question of democratic responsibility — positioning anyone who opposes the dam as choosing privilege over the public.</p>
+
+    <div class="tr-excerpt">
+      <div class="tr-head">Transcript — Defining the Public</div>
+      <div class="tr-row">
+        <div class="tr-sp sp-pinchot">Pinchot</div>
+        <div class="tr-body">...if we had nothing else to consider than <span class="hl">the delight of the few men and women</span> who would yearly go into the Hetch Hetchy Valley, then it should be left in its natural condition. But the considerations on the other side — <span class="hl">the benefit of the city of San Francisco</span> and its hundreds of thousands of residents — to my mind are simply overwhelming.</div>
+      </div>
+      <div class="tr-source">Source: House Committee on the Public Lands, 63rd Cong., 1st Sess. (Dec. 1, 1913) — historymatters.gmu.edu/d/5721</div>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">What This Does Rhetorically</div>
+      <p>"The few" sounds small, possibly privileged, disconnected from practical realities. It subtly delegitimizes the opposition without directly attacking it. "Hundreds of thousands" creates scale and urgency. Lawmakers are no longer choosing between two environmental values — they are choosing between serving the public and ignoring it. Even though Pinchot was himself an elite insider, he aligns rhetorically with the many while making Muir seem isolated. He also quietly sidesteps the politically sensitive question of federal authority: by framing government action as a response to necessity rather than an expansion of power, he makes federal involvement feel like an administrative requirement rather than a political choice. This shows how framing shapes not just arguments, but identities.</p>
+    </div>
+
+    <hr class="divider">
+
+    <!-- OVERALL -->
+    <h2>The Testimony as a Whole</h2>
+    <div class="content-grid-2" style="margin-top:1.5rem;">
+      <div>
+        <p>Pinchot's testimony succeeded not because it overwhelmed the opposition with evidence, but because it changed the terms on which the debate was fought. He treated the decision as basically made. He redefined conservation to exclude preservationist values. He appeared generous toward the opposition while dismissing it. He framed the vote as a matter of public responsibility rather than philosophical choice.</p>
+        <p>The deeper strategy: set the rules so your opponent can't score, then present your conclusion as the only logical outcome within those rules. He didn't just win a policy fight — he shaped what counted as a valid response, and constrained what his audience could even consider.</p>
+        <p>The Raker Act passed 43 to 25. Wilson signed it December 19, 1913. Hetch Hetchy was flooded. And the utilitarian framework Pinchot installed in that hearing room has echoed through every American environmental debate since — any time the "greater good" is invoked against arguments rooted in intrinsic value, Pinchot's rhetorical architecture is still doing its work.</p>
+      </div>
+      <div>
+        <div class="info-card" style="margin-bottom:1rem;">
+          <h4>Ethos &amp; Kairos</h4>
+          <p>Brevity signals authority. Framing the hearing as confirmation — not debate — exploits the kairotic moment of a decade of exhausted deliberation and a newly sympathetic administration.</p>
+        </div>
+        <div class="info-card water-card" style="margin-bottom:1rem;">
+          <h4>Logos</h4>
+          <p>The "fundamental principle" definition forecloses competing frameworks before they can be argued. Muir's values aren't countered — they're rendered invisible by a framework that simply doesn't include them.</p>
+        </div>
+        <div class="info-card forest-card">
+          <h4>Pathos</h4>
+          <p>"The few" vs. the public. Urgency framed as responsibility. Emotional pressure disguised as measured realism — in an institutional register Congress would accept.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="page-nav-bar">
+  <div class="container">
+    <a href="stakes.html" class="page-nav-link">← What Was at Stake</a>
+    <a href="outcome.html" class="page-nav-link">Next: Outcome &amp; Legacy →</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>When a Valley Disappeared &nbsp;·&nbsp; Primary source: House Committee on Public Lands, 63rd Cong., 1st Sess. (Dec. 1, 1913)</p>
+    <p class="footer-sub">Transcript digitized by <a href="https://historymatters.gmu.edu/d/5721/" target="_blank">History Matters, George Mason University</a></p>
+  </div>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>
